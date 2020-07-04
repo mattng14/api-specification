@@ -6313,20 +6313,6 @@ definitions:
       - closed
       - start_date
       - end_date
-  interpretation_services:
-    description: 'Describes interpretation services offered in different languages'
-    properties:
-      id:
-        description: 'Each service must have a unique identifier.'
-        type: string
-      service_id:
-        description: 'The identifier of the services for which the entry describes the interpretation services available.'
-        type: string
-      language:
-        description: 'Languages, other than English, for which interpretation is available. Languages are listed as ISO639-1 codes.'
-        type: string
-    required:
-      - id
   language:
     description: 'Details of the languages that are spoken at locations or services. This does not include languages which can only be used with interpretation.'
     properties:

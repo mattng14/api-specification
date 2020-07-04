@@ -6582,6 +6582,9 @@ definitions:
       licenses:
         description: 'An organization may have a license issued by a government entity to operate legally. A list of any such licenses can be provided here.'
         type: string
+      taxonomy_ids:
+        description: '(Deprecated) A comma separated list of identifiers from the taxonomy table. This field is deprecated in favour of using the service_taxonomy table.'
+        type: string
     required:
       - id
       - organization_id
@@ -6675,6 +6678,9 @@ definitions:
         type: "array"
         items:
           $ref: "#/definitions/service_area"
+      taxonomy_ids:
+        description: '(Deprecated) A comma separated list of identifiers from the taxonomy table. This field is deprecated in favour of using the service_taxonomy table.'
+        type: string
     required:
       - id
       - organization_id

@@ -6790,6 +6790,11 @@ definitions:
       licenses:
         description: 'An organization may have a license issued by a government entity to operate legally. A list of any such licenses can be provided here.'
         type: string
+    required:
+      - id
+      - organization_id
+      - name
+      - status
   service_complete:
     description: Full details about a service.
     properties:

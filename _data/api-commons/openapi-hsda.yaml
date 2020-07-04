@@ -6374,7 +6374,6 @@ definitions:
         type: string
     required:
       - id
-      - name
   location_complete:
     description: 'Full location details of an organization.'
     properties:

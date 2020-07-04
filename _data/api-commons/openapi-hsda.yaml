@@ -6686,6 +6686,25 @@ definitions:
       - organization_id
       - name
       - status
+  service_at_location:
+    description: 'The services at location table creates a link between a service and a specific location.'
+    properties:
+      id:
+        description: 'Each entry must have a unique identifier.'
+        type: string
+      service_id:
+        description: 'The identifier of the service at a given location.'
+        type: string
+      location_id:
+        description: 'The identifier of the location where this service operates.'
+        type: string
+      description:
+        description: 'Any additional information that should be displayed to users about the service at this specific location.'
+        type: string
+    required:
+      - id
+      - service_id
+      - location_id
   service_area:
     description: 'Details of the geographic area for which a service is available.'
     properties:

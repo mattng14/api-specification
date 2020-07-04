@@ -6674,6 +6674,11 @@ definitions:
         type: string
     required:
       - id
+      - address_1
+      - city
+      - state_province
+      - postal_code
+      - country
   program:
     description: 'Some organizations organise their services into programs. A program brings together a number of related services.'
     properties:

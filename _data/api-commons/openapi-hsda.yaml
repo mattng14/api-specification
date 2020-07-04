@@ -6425,7 +6425,7 @@ definitions:
         type: "array"
         items:
           $ref: "#/definitions/phone"
-      service:
+      services:
         type: "array"
         items:
           $ref: "#/definitions/service"

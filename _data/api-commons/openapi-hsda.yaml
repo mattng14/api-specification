@@ -6328,7 +6328,7 @@ definitions:
     required:
       - id
   language:
-    description: 'Details of the languages that are spoken at locations or services. This does not include languages which can only be used with intepretation.'
+    description: 'Details of the languages that are spoken at locations or services. This does not include languages which can only be used with interpretation.'
     properties:
       id:
         description: 'Each language must have a unique identifier.'

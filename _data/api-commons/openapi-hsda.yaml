@@ -4124,11 +4124,11 @@ paths:
           description: 'The unique service id.'
       responses:
         '200':
-          description: Organization Response
+          description: Service Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/organization"
+              $ref: "#/definitions/service"
         '500':
           description: Error Response
           schema:

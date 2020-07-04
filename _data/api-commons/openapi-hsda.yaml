@@ -6470,6 +6470,7 @@ definitions:
         type: string
     required:
       - id
+      - name
       - description
   organization_complete:
     description: 'Provides a full description of an organization entity'
@@ -6528,6 +6529,7 @@ definitions:
           $ref: "#/definitions/service"
     required:
       - id
+      - name
       - description
   payment_accepted:
     description: 'Details of the methods of payment that can be used in order to pay for services'

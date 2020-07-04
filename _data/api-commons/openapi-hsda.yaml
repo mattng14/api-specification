@@ -4615,7 +4615,7 @@ paths:
               $ref: "#/definitions/error_response"
       tags:
       - Services
-  /services/{service_id}/fees/{feed_id}/:
+  /services/{service_id}/fees/{fee_id}/:
     get:
       summary: Get fee for service
       description: Returns a fee entry for a specific service
@@ -4629,7 +4629,7 @@ paths:
         - in: path
           required: true
           type: string
-          name: feed_id
+          name: fee_id
           description: 'The unique feed id.'
       responses:
         '200':
@@ -4659,7 +4659,7 @@ paths:
         - in: path
           required: true
           type: string
-          name: feed_id
+          name: fee_id
           description: 'The unique feed id.'
         - in: body
           name: body
@@ -4702,7 +4702,7 @@ paths:
         - in: path
           required: true
           type: string
-          name: feed_id
+          name: fee_id
           description: 'The unique feed id.'
       security:
         - appid: []
